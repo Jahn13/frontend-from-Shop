@@ -1,0 +1,16 @@
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.logout{
+    padding-right: 1rem;
+    color: blue;
+}

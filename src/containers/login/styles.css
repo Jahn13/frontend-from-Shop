@@ -1,0 +1,41 @@
+.d-flex{
+  display: flex;
+}
+
+.left{
+  justify-content: left;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.mt10 {
+    margin-top: 12rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.background-bottom{
+  background-color: #37bd7e;
+  background-image: linear-gradient(160deg, #d6b87f 0%, #a7b1e9 100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}

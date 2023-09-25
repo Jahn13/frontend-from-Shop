@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(0,39,64);
+  background: linear-gradient(0deg, rgba(0,39,64,1) 0%, rgba(231,231,231,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.CreateButton {
+  background-color: midnightblue;
+  box-shadow: 0 5px 25px rgba(97, 218, 250, .5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  position: fixed;
+  bottom: 79%;
+  right: 5%;
+  font-weight: 700;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  transform: rotate(0);
+  transition: .3s ease;
+  position: absolute;
+  translate: middle;
+  z-index: 2;
+}
+
+.CreateButton:hover {
+  transform: rotate(224deg)
+}
